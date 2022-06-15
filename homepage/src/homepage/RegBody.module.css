@@ -1,0 +1,104 @@
+.homepage{
+    color: white;
+    min-width: 400px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    margin: 2% auto;
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(138,238,240);
+    background-image: linear-gradient(70deg, #1173cfe7 0%, #ae06b1e0 100%);
+}
+.hpcontent h1{
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hpcontent p{
+    width: 90%;
+    margin: 2% auto;
+    text-align: justify;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+.hpcontent button{
+    display: block;
+    outline: none;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+    width: 40%;
+    margin: 5% auto;
+    padding: 1rem 1.5rem;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 5px rgb(255 255 255 / 51%);
+    background-image: linear-gradient(to right, #141E30 0%, #243B55 51%, #141E30 100%);
+}
+.hpcontent button:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hpcontent button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+.hpimg{
+    margin-left: 50px;
+}
+.hpimg img{
+    padding: 0%;
+    max-width: 800px;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(255 255 255 / 99%);
+}
+
+.whoarewe{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    border-radius: 10px;
+    margin: 5% auto;
+    width: 80%;
+    background-image: url('../img/cetlogo.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+}
+
+.whead{
+    padding: 4%;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px 10px 0px 10px;
+    background: rgba(0, 0, 0, 0.820);
+}
+.wcontent{
+    font-size: 16px;
+    border-radius: 0px 10px 10px 10px;
+    padding: 4%;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.820);
+    }

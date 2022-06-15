@@ -1,0 +1,12 @@
+.App{
+ background-color: #d0dbe2;
+ font-family: 'Exo 2', sans-serif;
+} 
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+body{
+  
+}
