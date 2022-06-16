@@ -25,6 +25,7 @@ export default function Form() {
                 <div class="form-group mt-5 col-md-10" >
                     <textarea type="text" cols="40" rows="5" class="form-control" id="tellus" placeholder="TELL US"></textarea>
                 </div>
+                <button className='btn btn-light mt-4' type='submit'>Send</button>
             </form>
         </div>
     </div>

@@ -1,10 +1,19 @@
 .container{
-    width: 80%;
-}.contact{
     width: 100%;
-    background-color: rgba(126, 117, 247, 0.995);
+}
+.contact{
+    width: 94%;
     border-radius: 20px;
     margin: 3px auto;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.form{
+    border-right: 2px dashed green;
 }
 .connect{
     margin: 2px auto;
@@ -16,17 +25,22 @@
 .calling{
     margin: 2px auto;
     display: flex;
-    flex-direction: row;
-    text-align: center;
+    flex-direction: column;
 }
 .mailus,.callus{
-    margin: 20px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .mailus a{
+    margin-left: 20px;
     color: black;
     text-decoration: none;
 }
 .callus a{
+    margin-left: 20px;
     color: black;
     text-decoration: none;
 }
@@ -34,10 +48,9 @@
     color: black;
 }
 .ig{
-    margin: 3rem;
-    color: black;
+    margin:0rem 3rem;
+    color: rgb(13, 110, 253);
 }
-.fb{
-    margin: 3rem;
-    color: black;
+.fbb{    
+    margin:0rem 3rem;
 }

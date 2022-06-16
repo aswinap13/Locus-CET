@@ -7,32 +7,35 @@ import Form from './Form';
 function QueryForm() {
   return (
     <div className='container'>
-        <div className={`${classes.contact} row`}>
+        <div className={`${classes.contact} row `}>
 
-            <div className={`col-md-6 ${classes.form}`}>
+            <div className={`col-md-7 ${classes.form}`}>
                 <Form/>
             </div>
 
-            <div className={`col-md-6 ${classes.connect}`}>
-                <h2>Contact US</h2>
+            <div className={`col-md-4 ${classes.connect} mt-5`}>
+                <h2>Contact Us</h2>
                 <div className={`mt-4 ${classes.calling}`}>
                     <div className={classes.callus}>
                         <i class="fa-solid fa-phone fa-2x"></i>
-                        <p>Call Us</p>
-                        <a href='tel:+917994325113'>+917994325113</a>
+                        <p>Call Us <br/>
+                            <a href='tel:+917994325113'>+917994325113</a>
+                        </p>
                     </div>
                     <div className={classes.mailus}>
                         <i class="fa-solid fa-envelope fa-2x"></i>
-                        <p>Mail Us</p>
-                        <a href='mailto:locuscet@gmail.com'>locuscet@gmail.com</a>                        
+                        <p>Mail Us <br/>
+                        <a href='mailto:locuscet@gmail.com'>locuscet@gmail.com</a>   
+                        </p>
+                                             
                     </div>
                 </div>
                 <div className={`mt-5 ${classes.footer}`}>
-                        <a href='' className={classes.ig}>
+                        <a href='#' className={classes.ig}>
                         <i class="fa-brands fa-instagram fa-2x"></i>
                         </a>
-                        <a href={classes.fb}>
-                        <i class="fa-brands fa-facebook-square fa-2x"></i>
+                        <a href='#' className={classes.fbb}>
+                        <i class="fa-brands fa-facebook fa-2x"></i>
                         </a>
                     </div>
             </div>

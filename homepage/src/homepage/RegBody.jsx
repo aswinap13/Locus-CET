@@ -38,6 +38,9 @@ function RegBody() {
       <div className="footer">
         <QueryForm></QueryForm>
       </div>
+      <footer className='text-center mt-2 '>
+      ©copyright 2022
+      </footer>
       
     </>
   )

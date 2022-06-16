@@ -12,6 +12,7 @@
     text-align: center;
     background: rgb(138,238,240);
     background-image: linear-gradient(70deg, #1173cfe7 0%, #ae06b1e0 100%);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 .hpcontent h1{
     width: 100%;
@@ -84,6 +85,7 @@
     background-position: center;
     background-repeat: no-repeat; 
     border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
 .whead{
