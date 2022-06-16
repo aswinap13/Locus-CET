@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from './RegBody.module.css';
+import QueryForm from './QueryForm';
 
 function RegBody() {
   return (
@@ -33,7 +34,10 @@ function RegBody() {
             </p>
         </div>
       </div>
-      
+
+      <div className="footer">
+        <QueryForm></QueryForm>
+      </div>
       
     </>
   )
