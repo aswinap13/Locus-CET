@@ -1,8 +1,12 @@
 import React from 'react';
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from './NavbarHeader.module.css';
+import Former from '../registration/Former';
+
 
 function NavbarHeader() {
+  const [active,setactive] = useState("false");
   return (
     <div>
         <nav className={`${"navbar navbar-expand-md"} ${classes.navbarBG}`}>
@@ -15,7 +19,9 @@ function NavbarHeader() {
           <div className={`${"collapse navbar-collapse"} ${classes.navList}`} id="navbarNav">
             <ul className={`${"navbar-nav"} ${classes.navBarList}`}>
               <li className={`${"nav-item active"} ${classes.navItem}`}>
-                <a className="nav-link" href="#">Register <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="#"  onClick={() => setactive(!active) }> 
+                Register <span className="sr-only">(current)</span></a>
+                {!active && <Former/>}
               </li>
               <li className={`${"nav-item"} ${classes.navItem}`}>
                 <a className="nav-link" href="#">Log In</a>

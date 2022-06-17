@@ -16,7 +16,7 @@ function RegBody() {
             typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s
             </p>
-            <button className='btn'>Register Now {'\u00A0'} ➤</button>
+            <button className='btn' >Take the exam {'\u00A0'} ➤ </button>
           </div>
           <div className={classes.hpimg}>
             <img src={require('../img/5834.jpg')}>
