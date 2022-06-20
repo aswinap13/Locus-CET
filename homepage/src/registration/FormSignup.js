@@ -1,9 +1,10 @@
 import React from 'react';
+import { useState } from 'react';
 import validate from './validateInfo';
 import useForm from './useForm';
 import './Form.css';
-
 const FormSignup = ({ submitForm }) => {
+  
   const { handleChange, handleSubmit, values, errors } = useForm(
     submitForm,
     validate
@@ -12,16 +13,19 @@ const FormSignup = ({ submitForm }) => {
   return (
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
+        <button className='btn close'>
+          x
+        </button>
         <h1 className='formhead'>
           Register Here!
         </h1>
         <div className='form-inputs'>
-          <label className='form-label'>Username</label>
+          <label className='form-label'>Name</label>
           <input
             className='form-input'
             type='text'
             name='username'
-            placeholder='Enter your username'
+            placeholder='Enter your FullName'
             value={values.username}
             onChange={handleChange}
           />

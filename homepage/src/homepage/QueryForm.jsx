@@ -9,13 +9,11 @@ function QueryForm() {
     <div className='container'>
         <div className={`${classes.contact} row `}>
 
-            <div className={`col-md-7 ${classes.form}`}>
-                <Form/>
-            </div>
+           
 
             <div className={`col-md-4 ${classes.connect} mt-5`}>
                 <h2>Contact Us</h2>
-                <div className={`mt-4 ${classes.calling}`}>
+                <div className={` ${classes.calling}`}>
                     <div className={classes.callus}>
                         <i class="fa-solid fa-phone fa-2x"></i>
                         <p>Call Us <br/>
@@ -30,7 +28,7 @@ function QueryForm() {
                                              
                     </div>
                 </div>
-                <div className={`mt-5 ${classes.footer}`}>
+                <div className={`${classes.footer}`}>
                         <a href='#' className={classes.ig}>
                         <i class="fa-brands fa-instagram fa-2x"></i>
                         </a>

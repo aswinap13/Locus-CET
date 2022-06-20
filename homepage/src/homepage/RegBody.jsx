@@ -8,15 +8,14 @@ function RegBody() {
     <>
       <div className={classes.homepage}>
           <div className={classes.hpcontent}>
-            <h1>
-            Lorem Ipsum is simply dummy text of the printing and typesetting.
+            <h1>LOCUS 3.0 - 
+              An initiative by students of CET
             </h1>
-            <p>
-            Lorem Ipsum is simply dummy text of the printing and 
-            typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s
+            <p>Practice makes progression.<br/>
+            Progress moulds success. <br/>
+            Enhance your KEAM preparations with LOCUS.
             </p>
-            <button className='btn' >Take the exam {'\u00A0'} ➤ </button>
+            <button className='btn' >Take Test {'\u00A0'} ➤ </button>
           </div>
           <div className={classes.hpimg}>
             <img src={require('../img/5834.jpg')}>
@@ -24,18 +23,24 @@ function RegBody() {
           </div>
       </div>
 
-      <div className={classes.whoarewe}>
+      <div className={classes.whoarewe} id="whoarewe">
         <div className={classes.whead}>
             <h1>Who  Are  We?
             </h1>
         </div>
         <div className={classes.wcontent}>
-            <p>An initiative by KSU UNION, College Of Engineering Trivandrum
+            <p>
+            LOCUS is a KEAM mock test initiative prepared exclusively by the students of College of Engineering Trivandrum. With the 2 
+            previous years of LOCUS proved helpful to engineering aspirants, we are 
+            here with third edition of LOCUS to sharpen your KEAM skills.
+            <br/>
+            <br/>
+            An initiative by KSU UNION, College Of Engineering Trivandrum
             </p>
         </div>
       </div>
 
-      <div className="footer">
+      <div className="footer" id="contact">
         <QueryForm></QueryForm>
       </div>
       <footer className='text-center mt-2 '>

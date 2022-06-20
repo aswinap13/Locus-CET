@@ -17,6 +17,9 @@
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+.close{
+  display: none;
+}
 .formhead{
   text-align:center !important;
 }
@@ -126,4 +129,14 @@
   text-decoration: none;
   color: #ffffff;
   font-weight: 600;
+}
+
+@media screen and (max-width: 760px) {
+  .form-container {
+    width: 80vw;
+    left: 10vw;
+  }
+  .close{
+    display: block;
+  }
 }

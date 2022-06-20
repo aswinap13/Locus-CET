@@ -4,7 +4,8 @@
     "mdbreact": "^5.2.0",
     "react": "^18.0.0",
     "react-bootstrap": "^2.2.3",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.4.0"
   },
   "name": "locs",
   "version": "1.0.0",
@@ -14,5 +15,14 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aswinap13/Locus-CET.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aswinap13/Locus-CET/issues"
+  },
+  "homepage": "https://github.com/aswinap13/Locus-CET#readme",
   "description": ""
 }
